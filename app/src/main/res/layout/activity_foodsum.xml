@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FFFFFF"
-    android:backgroundTint="@android:color/white"
-    android:gravity="center"
     android:orientation="vertical"
+    android:background="@android:color/white"
+    android:gravity="center"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
+    android:backgroundTint="@android:color/white"
     tools:context=".food">
 
     <ImageView
@@ -28,8 +28,8 @@
         android:textColor="@color/limegreen" />
 
     <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_width="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp">
 
