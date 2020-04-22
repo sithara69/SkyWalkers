@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#050711"
+    android:background="@color/black"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
@@ -29,7 +29,7 @@
                 android:id="@+id/food_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#DFD368"
+                android:background="@color/lightyellow"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -44,7 +44,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:background="#DFD368"
+                    android:background="@color/lightyellow"
                     android:text="@string/food_str"
                     android:textColor="@android:color/black"
                     android:textSize="18dp"
@@ -54,7 +54,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
                     android:layout_marginTop="1dp"
-                    android:background="#DFD368" />
+                    android:background="@color/lightyellow" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,7 +81,7 @@
                 android:id="@+id/transport_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#DFD368"
+                android:background="@color/lightyellow"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -96,7 +96,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:background="#DFD368"
+                    android:background="@color/lightyellow"
                     android:text="@string/transport_str"
                     android:textColor="@android:color/black"
                     android:textSize="18dp"
@@ -106,7 +106,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="10dp"
                     android:layout_marginTop="1dp"
-                    android:background="#DFD368" />
+                    android:background="@color/lightyellow" />
 
                 <TextView
                     android:layout_width="wrap_content"
