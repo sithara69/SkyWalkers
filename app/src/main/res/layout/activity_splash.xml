@@ -32,13 +32,10 @@
         android:textSize="40dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="298dp" />
-
-
-
-
-
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="397dp" />
 
 
 </android.support.constraint.ConstraintLayout>
