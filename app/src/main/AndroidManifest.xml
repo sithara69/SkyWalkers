@@ -25,7 +25,8 @@
             android:name=".dashboard"
             android:label="@string/dashboard"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" /> <!-- <activity -->
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
         <!-- android:name=".food" -->
         <!-- android:label="@string/food_str" -->
         <!-- android:parentActivityName=".foodsum" -->
@@ -39,7 +40,8 @@
             android:name=".shopping"
             android:label="@string/shopping_str"
             android:parentActivityName=".shoppingsum"
-            android:screenOrientation="portrait" /> <!-- <activity -->
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
         <!-- android:name=".creditcard" -->
         <!-- android:label="@string/cc_str" -->
         <!-- android:parentActivityName=".creditcardsum" -->
@@ -48,7 +50,8 @@
             android:name=".summary"
             android:label="@string/summary_str"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait" /> <!-- <activity -->
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
         <!-- android:name=".foodsum" -->
         <!-- android:label="@string/foodsum_str" -->
         <!-- android:parentActivityName=".dashboard" -->
@@ -62,16 +65,20 @@
             android:name=".shoppingsum"
             android:label="@string/shoppingsum_str"
             android:parentActivityName=".dashboard"
-            android:screenOrientation="portrait" /> <!-- <activity -->
+            android:screenOrientation="portrait" />
+        <!-- <activity -->
         <!-- android:name=".creditcardsum" -->
         <!-- android:label="@string/title_activity_creditcardsum" -->
         <!-- android:parentActivityName=".dashboard" -->
         <!-- android:screenOrientation="portrait" /> -->
+
+
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_splash"
             android:parentActivityName=".dashboard"
-            android:screenOrientation="portrait" /> <!-- <activity -->
+            android:screenOrientation="portrait" />
+         <!-- <activity -->
         <!-- android:name=".creditcardedit" -->
         <!-- android:label="@string/title_activity_creditcardedit" -->
         <!-- android:parentActivityName=".creditcardsum" -->
@@ -89,6 +96,9 @@
             android:label="@string/title_activity_shoppingedit"
             android:parentActivityName=".shoppingsum"
             android:screenOrientation="portrait"></activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
