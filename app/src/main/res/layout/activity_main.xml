@@ -13,15 +13,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
         android:gravity="center"
-        android:hint="@string/header"
-        android:textColor="#48072668"
+        android:hint="@string/secondpage_heading"
+        android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold"
+        app:fontFamily="sans-serif-smallcaps"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:text="@string/secondpage_heading" />
 
     <ImageButton
         android:id="@+id/fab"
@@ -71,20 +73,6 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
-        android:textColor="#F5615B5B"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fab"
-        app:layout_constraintVertical_bias="0.0"
-        tools:text="@string/new_click" />
 
 
 </android.support.constraint.ConstraintLayout>
