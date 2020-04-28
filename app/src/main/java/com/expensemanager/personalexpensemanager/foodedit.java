@@ -146,7 +146,7 @@ public class foodedit extends AppCompatActivity {
 
         if (foodDB.update(food)) {
             Context context = getApplicationContext();
-            CharSequence text = "Transport Updated Sucessfully";
+            CharSequence text = "Food Updated Sucessfully";
             int duration = Toast.LENGTH_SHORT;
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
