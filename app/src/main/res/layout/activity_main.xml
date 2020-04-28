@@ -77,7 +77,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
-        android:text="Click Here"
+        android:text="@string/ClickHere"
         android:textColor="#F5615B5B"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".splash"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".dashboard"
             android:label="@string/dashboard"
@@ -39,7 +43,7 @@
             android:parentActivityName=".dashboard"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".splash"
+            android:name=".MainActivity"
             android:label="@string/title_activity_splash"
             android:parentActivityName=".dashboard"
             android:screenOrientation="portrait" />
