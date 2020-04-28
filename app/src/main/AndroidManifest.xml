@@ -44,7 +44,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_splash"
+            android:label="Main Activity"
             android:parentActivityName=".dashboard"
             android:screenOrientation="portrait" />
 
