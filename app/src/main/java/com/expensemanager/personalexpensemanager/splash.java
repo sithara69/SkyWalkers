@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 //
  public  class splash extends AppCompatActivity {
 //
-//    //Button start_btn;
+//
       ImageButton fab;
 
       @Override

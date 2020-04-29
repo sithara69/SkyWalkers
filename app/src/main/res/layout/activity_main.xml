@@ -7,24 +7,6 @@
     android:background="#A7CCC0"
     tools:context=".MainActivity">
 
-    <TextView
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:gravity="center"
-        android:hint="@string/secondpage_heading"
-        android:textColor="@color/black"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:fontFamily="sans-serif-smallcaps"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:text="@string/secondpage_heading" />
-
     <ImageButton
         android:id="@+id/fab"
         android:layout_width="120dp"
@@ -48,11 +30,11 @@
 
     <Button
         android:id="@+id/summary_btn"
-        android:layout_width="177dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="162dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="32dp"
         android:background="@color/limegreen"
         android:text="@string/summary_str"
         android:textColor="@android:color/white"
@@ -62,11 +44,11 @@
 
     <Button
         android:id="@+id/reset_btn"
-        android:layout_width="177dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="224dp"
-        android:layout_marginLeft="224dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="149dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="32dp"
         android:background="@color/red"
         android:text="@string/reset_str"
         android:textColor="@android:color/white"
