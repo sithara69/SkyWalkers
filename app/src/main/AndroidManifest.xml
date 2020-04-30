@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.expensemanager.personalexpensemanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon_round"
+        android:label="@string/header"
+        android:roundIcon="@mipmap/ic_launcher_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".dashboard"
+            android:label="@string/dashboard"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transport"
+            android:label="@string/transport_str"
+            android:parentActivityName=".transportsum"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".summary"
+            android:label="@string/summary_str"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".transportsum"
+            android:label="@string/transportsum_str"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Main Activity"
+            android:parentActivityName=".dashboard"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".transportedit"
+            android:parentActivityName=".transportsum"
+            android:label="@string/title_activity_transportedit"
+            android:screenOrientation="portrait"></activity>
+
+
+    </application>
+
+</manifest>
